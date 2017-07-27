@@ -1,0 +1,3 @@
+* Ableton Style Cursor
+A cursor with an animated color ramp reminiscent of Ableton's timeline
+cursor.  Implemented with CSS animations.
