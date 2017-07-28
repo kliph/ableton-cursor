@@ -1,0 +1,26 @@
+body  {
+  height: 700px;
+  width: 100%;
+  background: #999;
+}
+#cursor {
+  animation: ramp 0.75s linear 0s infinite alternate;
+  -webkit-animation: colorchange 0.75s linear 0s infinite alternate;
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  top: 0px;
+}
+
+@keyframes colorchange
+{
+  0%   {background: orange;}
+  100% {background: white;}
+}
+
+@-webkit-keyframes colorchange
+{
+  0%   {background: orange;}
+  100% {background: white;}
+}
